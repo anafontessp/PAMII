@@ -1,7 +1,7 @@
 const escola = "Cod3r"
 
 console.log(escola.charAt(4)) // me retorna a letra da quarta posição
-console.log(escola.charAt(5)) // me retorna vazio. JS retorna um percentual
+console.log(escola.charAt(5)) // me retorna vazio. JS retorna um valor de percentual de erros menor
 // de erros menor
 
 // para colocar string pode usar " " ou ' '
@@ -21,7 +21,10 @@ console.log(escola.replace(3, "e"))
 console.log(escola.replace(/\d/, "e")) // regex para substituir
 // todos os digitos numéricos dentro do texto 
 
-console.log("Ana, Maria, Pedro" .split (","))
+console.log("Ana, Maria Pedro".split("","")) // conversão para array
+// pode ser usado regex /,/
+
+
 
 
 
