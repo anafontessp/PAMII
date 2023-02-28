@@ -13,6 +13,6 @@ b = 400
 console.log(a,b)
 
 const c = 5 // declaração de constante, usar para coisas que não tem motivos para mudar()
-// c = 50 // não consegue reatribuyir valor
+// c = 50 // não consegue reatribuir valor
 
 console.log(c)
